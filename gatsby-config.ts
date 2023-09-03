@@ -9,9 +9,9 @@ const config: GatsbyConfig = {
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.mjs
     siteTitle: `fanoromani`,
-    siteTitleAlt: `fanoromani's Portfolio`,
-    siteHeadline: `Cara - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://cara.lekoarts.de`,
+    siteTitleAlt: `Stefano Romani`,
+    siteHeadline: `fanoromani's Portfolio`,
+    siteUrl: `https://fanoromani.netlify.app`,
     siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,

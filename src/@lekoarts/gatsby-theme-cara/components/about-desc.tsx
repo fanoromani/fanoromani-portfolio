@@ -18,11 +18,9 @@ const AboutDesc = () => (
   >
     <img src="/avatar.png" alt="avatar" style={{ borderRadius: "100%" }} />
 
-    <p>
-      The English language can not fully capture the depth and complexity of my
-      thoughts. So I'm incorporating Emoji into my speech to better express
-      myself. Winky face.
-    </p>
+    <blockquote sx={{ fontSize: "1.875rem" }}>
+      Hey there! I'm a frontend developer currently living in Brasília, Brazil.
+    </blockquote>
   </div>
 );
 
