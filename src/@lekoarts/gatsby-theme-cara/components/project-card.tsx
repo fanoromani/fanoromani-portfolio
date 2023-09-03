@@ -50,6 +50,8 @@ const ProjectCard = ({
         backgroundImage: `url(${cover})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
+        backgroundPosition: "top",
+        marginBottom: "2rem",
       }}
     ></div>
     <div
