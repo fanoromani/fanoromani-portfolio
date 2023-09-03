@@ -1,15 +1,17 @@
-import * as React from "react"
-import { get } from "theme-ui"
-import { MDXProvider } from "@mdx-js/react"
-import { Global } from "@emotion/react"
-import MdxComponents from "./mdx-components"
+/** @jsx jsx */
+import { jsx } from "theme-ui";
+import * as React from "react";
+import { get } from "theme-ui";
+import { MDXProvider } from "@mdx-js/react";
+import { Global } from "@emotion/react";
+import MdxComponents from "./mdx-components";
 
-type LayoutProps = { children: React.ReactNode; className?: string }
+type LayoutProps = { children: React.ReactNode; className?: string };
 
 const Layout = ({ children, className = `` }: LayoutProps) => (
   <React.Fragment>
     <Global
-      styles={(t) => ({
+      sx={(t) => ({
         "*": {
           boxSizing: `inherit`,
           "&:before": {
@@ -26,12 +28,15 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
           backgroundColor: get(t, `colors.primary`),
           color: get(t, `colors.background`),
         },
+        "#about": {
+          flexDirection: "column",
+        },
       })}
     />
     <MDXProvider components={MdxComponents}>
       <main className={className}>{children}</main>
     </MDXProvider>
   </React.Fragment>
-)
+);
 
-export default Layout
+export default Layout;
