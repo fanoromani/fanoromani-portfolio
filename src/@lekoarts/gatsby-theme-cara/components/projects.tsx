@@ -6,7 +6,6 @@ import Content from "../elements/content";
 import Svg from "./svg";
 import { UpDown, UpDownWide } from "../styles/animations";
 import ProjectsMDX from "../sections/projects.mdx";
-import ProjectsComponent from "./projects-component";
 
 const Projects = ({
   offset,
@@ -44,7 +43,16 @@ const Projects = ({
           }}
         >
           Be sure to check my{" "}
-          <a href="https://github.com/fanoromani" target="_blank">
+          <a
+            href="https://github.com/fanoromani"
+            target="_blank"
+            sx={{
+              transition: `all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important`,
+              "&:hover": {
+                textDecoration: "underline",
+              },
+            }}
+          >
             GitHub
           </a>{" "}
           for all my projects and details!

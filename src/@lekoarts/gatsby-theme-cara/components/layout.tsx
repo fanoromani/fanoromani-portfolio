@@ -28,9 +28,6 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
           backgroundColor: get(t, `colors.primary`),
           color: get(t, `colors.background`),
         },
-        "#about": {
-          flexDirection: "column",
-        },
       })}
     />
     <MDXProvider components={MdxComponents}>
