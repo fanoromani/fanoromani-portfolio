@@ -33,32 +33,15 @@ const Projects = ({
               gridTemplateColumns: "1fr",
             },
             h2: { gridColumn: `-1/1`, color: `white !important` },
-            p: { gridColumn: "-1/1" },
-          }}
-        >
-          <ProjectsMDX />
-          <p
-            sx={{
+            p: {
+              gridColumn: "-1/1",
               textAlign: "center",
               fontWeight: "bold",
               fontSize: "1.25rem",
-            }}
-          >
-            Be sure to check my{" "}
-            <a
-              href="https://github.com/fanoromani"
-              target="_blank"
-              sx={{
-                transition: `all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important`,
-                "&:hover": {
-                  textDecoration: "underline",
-                },
-              }}
-            >
-              GitHub
-            </a>{" "}
-            for all my projects and details!
-          </p>
+            },
+          }}
+        >
+          <ProjectsMDX />
         </div>
       </Inner>
     </Content>
