@@ -5,7 +5,6 @@ import theme from "../gatsby-plugin-theme-ui";
 const AboutDesc = () => (
   <div>
     <div
-      id="about"
       sx={{
         display: "flex",
         "@media screen and (max-width: 40em)": {

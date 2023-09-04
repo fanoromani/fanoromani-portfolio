@@ -102,7 +102,7 @@ const theme = merge(tailwind, {
       mt: 2,
       mb: 2,
       color: `heading`,
-      "@media screen and (max-width: 30em)": {
+      "@media screen and (max-width: 40em)": {
         textAlign: "center",
       },
     },
