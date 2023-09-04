@@ -28,35 +28,35 @@ const Projects = ({
           sx={{
             display: `grid`,
             gridGap: [4, 4, 4, 5],
-            gridTemplateColumns: [`1fr`, `1fr`, `repeat(2, 1fr)`],
+            gridTemplateColumns: [`1fr`, `1fr`, "1fr", `repeat(2, 1fr)`],
             h2: { gridColumn: `-1/1`, color: `white !important` },
+            p: { gridColumn: "-1/1" },
           }}
         >
           <ProjectsMDX />
-        </div>
-        <p
-          sx={{
-            textAlign: "center",
-            fontWeight: "bold",
-            fontSize: "1.25rem",
-            paddingTop: "4rem",
-          }}
-        >
-          Be sure to check my{" "}
-          <a
-            href="https://github.com/fanoromani"
-            target="_blank"
+          <p
             sx={{
-              transition: `all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important`,
-              "&:hover": {
-                textDecoration: "underline",
-              },
+              textAlign: "center",
+              fontWeight: "bold",
+              fontSize: "1.25rem",
             }}
           >
-            GitHub
-          </a>{" "}
-          for all my projects and details!
-        </p>
+            Be sure to check my{" "}
+            <a
+              href="https://github.com/fanoromani"
+              target="_blank"
+              sx={{
+                transition: `all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important`,
+                "&:hover": {
+                  textDecoration: "underline",
+                },
+              }}
+            >
+              GitHub
+            </a>{" "}
+            for all my projects and details!
+          </p>
+        </div>
       </Inner>
     </Content>
     <Divider speed={0.1} offset={offset} factor={factor}>
