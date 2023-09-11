@@ -19,7 +19,7 @@ const Content = ({
 }: ContentProps) => (
   <ParallaxLayer
     sx={{
-      padding: [3, 4, 4, 5],
+      padding: [3, 3, 4, 5],
       display: `flex`,
       flexDirection: `column`,
       alignItems: `center`,
