@@ -7,6 +7,7 @@ import Projects from "../components/projects";
 import About from "../components/about";
 import Contact from "../components/contact";
 import Seo from "../components/seo";
+import { window } from "browser-monads";
 
 const Cara = () => (
   <Layout>

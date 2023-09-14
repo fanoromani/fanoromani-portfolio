@@ -38,7 +38,7 @@ const ProjectCard = ({
       },
     }}
   >
-    <img
+    <span
       sx={{
         position: `absolute`,
         top: `0`,
