@@ -38,7 +38,7 @@ const ProjectCard = ({
       },
     }}
   >
-    <div
+    <img
       sx={{
         position: `absolute`,
         top: `0`,
@@ -52,7 +52,7 @@ const ProjectCard = ({
         backgroundSize: "cover",
         backgroundPosition: "top",
       }}
-    ></div>
+    />
     <div
       sx={{
         opacity: 0.85,
