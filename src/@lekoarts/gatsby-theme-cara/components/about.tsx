@@ -112,7 +112,7 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       factor={factor}
       sx={{
         "@media screen and (max-width: 450px)": {
-          marginTop: "20rem",
+          marginTop: "30rem",
         },
       }}
     >
