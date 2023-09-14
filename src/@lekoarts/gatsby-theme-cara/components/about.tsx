@@ -110,7 +110,11 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       speed={0.4}
       offset={offset}
       factor={factor}
-      sx={{ marginTop: "10rem" }}
+      sx={{
+        "@media screen and (max-width: 450px)": {
+          marginTop: "20rem",
+        },
+      }}
     >
       <Inner>
         <AboutMDX />
