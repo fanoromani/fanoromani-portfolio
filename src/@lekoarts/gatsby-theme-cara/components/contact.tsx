@@ -51,7 +51,16 @@ const Contact = ({
         </div>
       </div>
     </Divider>
-    <Content speed={0.4} offset={offset} factor={factor}>
+    <Content
+      speed={0.4}
+      offset={offset}
+      factor={factor}
+      /*  sx={{
+        "@media screen and (max-width: 450px)": {
+          marginTop: "45rem",
+        },
+      }} */
+    >
       <Inner>
         <ContactMDX />
       </Inner>

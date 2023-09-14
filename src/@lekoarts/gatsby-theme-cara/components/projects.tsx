@@ -26,9 +26,9 @@ const Projects = ({
       <Inner>
         <div
           sx={{
-            "@media screen and (max-width: 450px)": {
+            /* "@media screen and (max-width: 450px)": {
               marginTop: "45rem",
-            },
+            }, */
             display: `grid`,
             gridGap: [4, 4, 4, 5],
             gridTemplateColumns: [`1fr`, `1fr`, `repeat(2, 1fr)`],
