@@ -1,3 +1,5 @@
+/** @jsx jsx */
+import { jsx } from "theme-ui";
 import * as React from "react";
 import Divider from "../elements/divider";
 import Inner from "../elements/inner";
@@ -104,9 +106,14 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         top="70%"
       />
     </Divider>
-    <Content speed={0.4} offset={offset} factor={factor}>
+    <Content
+      speed={0.4}
+      offset={offset}
+      factor={factor}
+      sx={{ marginTop: "10rem" }}
+    >
       <Inner>
-        <AboutMDX sx={{ marginTop: "4rem" }} />
+        <AboutMDX />
       </Inner>
     </Content>
   </div>
